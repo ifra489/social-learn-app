@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SocialLearn</string>
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="filter_array">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Done</item>
+    </string-array>
+
+</resources>

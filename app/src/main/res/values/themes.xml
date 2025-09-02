@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SocialLearn" parent="Theme.Material3.DayNight.NoActionBar"/>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Theme.SocialLearn" parent="Base.Theme.SocialLearn" />
+
+        <!-- Base application theme. -->
+        <style name="Theme.SocialLearn.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/light_primary</item>
+            <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+            <item name="colorOnPrimary">@color/light_on_primary</item>
+            <item name="android:windowBackground">@color/light_background</item>
+            <item name="android:textColor">@color/light_text</item>
+        </style>
+
+        <style name="Theme.SocialLearn.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/dark_primary</item>
+            <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+            <item name="colorOnPrimary">@color/dark_on_primary</item>
+            <item name="android:windowBackground">@color/dark_background</item>
+            <item name="android:textColor">@color/dark_text</item>
+        </style>
+
+    </resources>
+
+

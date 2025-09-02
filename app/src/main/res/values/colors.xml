@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_stroke">#DDDDDD</color>
+
+    <!-- Light Theme Colors -->
+    <color name="light_primary">#2B68F4</color>           <!-- Buttons / Primary -->
+    <color name="light_primary_variant">#3700B3</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_background">#FFFFFF</color>        <!-- Main background -->
+    <color name="light_text">#000000</color>              <!-- Primary text -->
+    <color name="light_secondary_text">#616161</color>    <!-- Secondary text -->
+
+    <!-- Dark Theme Colors -->
+    <color name="dark_primary">#8CA7F0</color>
+    <color name="dark_primary_variant">#3700B3</color>
+    <color name="dark_on_primary">#000000</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_secondary_text">#B3B3B3</color>
+</resources>
+

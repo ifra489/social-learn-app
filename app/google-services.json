@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770556643128",
+    "project_id": "sociallearn-dfc88",
+    "storage_bucket": "sociallearn-dfc88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770556643128:android:d37bf0d375b7f91b1b63cd",
+        "android_client_info": {
+          "package_name": "rwu.it.sociallearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqI_SBIHHM9VbXLBCrL9jDr8KNC2x1OSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

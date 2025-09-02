@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Question Number -->
+    <TextView
+        android:id="@+id/tvQuestionsNumber"
+        android:text="Question 1"
+        android:textSize="19sp"
+        android:textColor="#A020F0"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Question Text -->
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:text="Question"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton android:id="@+id/rbOptionB" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RadioButton android:id="@+id/rbOptionC" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RadioButton android:id="@+id/rbOptionD" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:text="Timer: 10"
+        android:textSize="18sp"
+        android:layout_gravity="end"
+        android:textColor="#A020F0"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
